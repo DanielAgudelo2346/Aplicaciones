@@ -1,0 +1,76 @@
+body{
+	font-family: georgia, times, serif;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+p{
+	margin-bottom:1.9em;
+}
+h1{
+	font-size: 2rem;
+}
+.container{
+	width: 95%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.header{
+	background: #333;
+	color: white;
+	padding: 2rem 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navegacion ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.navegacion ul li{
+	display: inline-block;
+	margin: 0 1.2rem;
+}
+
+.navegacion ul li a{
+	display: block;
+	padding: 0.5rem 2rem;
+	transition: all 0.3s linear;
+	border-radius: 30px;
+}
+.navegacion ul li a:hover {
+background: #c1c2fd;
+} 
+.footer{
+	background: #e4eb93;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+.main{
+	padding-top: 12rem;
+}
+.leftbar{
+	background: red;
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) 
+  z-index: 1; /* Stay on top */
+  top: 200; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden;
+	width: 25%;
+}
+.content{
+	padding-left: 21rem;
+}
