@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mundial_2018"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mundial_2018.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mundial_2018.PanCol" >
+        </activity>
+        <activity android:name="com.example.mundial_2018.PanPara" >
+        </activity>
+        <activity android:name="com.example.mundial_2018.PanChil" >
+        </activity>
+        <activity android:name="com.example.mundial_2018.PanBras" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanEcua"
+            android:label="@string/title_activity_pan_ecua" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanArg"
+            android:label="@string/title_activity_pan_arg" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanUrug"
+            android:label="@string/title_activity_pan_urug" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanVen"
+            android:label="@string/title_activity_pan_ven" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanPeru"
+            android:label="@string/title_activity_pan_peru" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.PanBoli"
+            android:label="@string/title_activity_pan_boli" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.Mascota"
+            android:label="@string/title_activity_mascota" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.Partidos"
+            android:label="@string/title_activity_partidos" >
+        </activity>
+        <activity
+            android:name="com.example.mundial_2018.Creditos"
+            android:label="@string/title_activity_creditos" >
+        </activity>
+    </application>
+
+</manifest>

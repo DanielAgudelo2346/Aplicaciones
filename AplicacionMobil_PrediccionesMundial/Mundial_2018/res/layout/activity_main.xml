@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:text="               Paises Latinoamericanos" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="19dp"
+        android:onClick="argentina"
+        android:src="@drawable/argentina" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:onClick="bolivia"
+        android:src="@drawable/bolivia" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:onClick="brasil"
+        android:src="@drawable/brasil" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toRightOf="@+id/textView1"
+        android:onClick="chile"
+        android:src="@drawable/chile" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:onClick="colombia"
+        android:src="@drawable/colombia" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignTop="@+id/imageButton5"
+        android:onClick="ecuador"
+        android:src="@drawable/ecuador" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignRight="@+id/imageButton3"
+        android:layout_alignTop="@+id/imageButton6"
+        android:onClick="paraguay"
+        android:src="@drawable/parahuay" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton7"
+        android:layout_toRightOf="@+id/textView1"
+        android:onClick="peru"
+        android:src="@drawable/peru" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginTop="14dp"
+        android:onClick="uruguay"
+        android:src="@drawable/uruguay" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton9"
+        android:onClick="venezuela"
+        android:src="@drawable/venezuela" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton9"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:onClick="masco"
+        android:src="@drawable/mascota" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageButton8"
+        android:layout_marginBottom="26dp"
+        android:onClick="salir"
+        android:text="Salir" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton13"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:onClick="continuar"
+        android:src="@drawable/conti" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton14"
+        android:layout_toRightOf="@+id/imageButton10"
+        android:onClick="finalizar"
+        android:src="@drawable/stop" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton11"
+        android:layout_below="@+id/imageButton11"
+        android:layout_marginTop="23dp"
+        android:onClick="reproducir"
+        android:src="@drawable/play1" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton12"
+        android:layout_toRightOf="@+id/imageButton11"
+        android:onClick="pausar"
+        android:src="@drawable/pause" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton11"
+        android:layout_alignRight="@+id/imageButton15"
+        android:layout_toRightOf="@+id/imageButton13"
+        android:onClick="partidos"
+        android:text="Predicciones" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:onClick="creditos"
+        android:text="Creditos" />
+
+</RelativeLayout>
